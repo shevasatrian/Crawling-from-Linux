@@ -1,0 +1,117 @@
+══════════════════════════════════════════════════════════════════════
+  Quest 4: arXiv Crawler — Linux Edition
+══════════════════════════════════════════════════════════════════════
+[2026-02-26T04:05:13.436Z] [INFO ] Target     : https://arxiv.org
+[2026-02-26T04:05:13.439Z] [INFO ] Query      : "machine learning"
+[2026-02-26T04:05:13.442Z] [INFO ] Max Results: 10
+[2026-02-26T04:05:13.444Z] [INFO ] Concurrency: 5
+[2026-02-26T04:05:13.447Z] [INFO ] Max Retries: 3
+[2026-02-26T04:05:13.449Z] [INFO ] Platform   : linux (x64)
+──────────────────────────────────────────────────────────────────────
+[2026-02-26T04:05:13.453Z] [INFO ] [0/3] Running Linux system checks...
+[2026-02-26T04:05:13.456Z] [INFO ] Running system checks...
+──────────────────────────────────────────────────────────────────────
+[2026-02-26T04:05:13.461Z] [INFO ] OS Platform  : linux ✅
+[2026-02-26T04:05:13.463Z] [INFO ] Node.js      : v20.20.0 ✅
+[2026-02-26T04:05:13.470Z] [INFO ] Output dir   : writable ✅ (/mnt/d/Must-Company-assesment/Quest4/output)
+[2026-02-26T04:05:13.476Z] [INFO ] Log dir      : writable ✅ (/mnt/d/Must-Company-assesment/Quest4/logs)
+[2026-02-26T04:05:13.488Z] [INFO ] Disk Space   : 583501MB available ✅
+[2026-02-26T04:05:13.491Z] [INFO ] DNS Check    : resolving arxiv.org...
+[2026-02-26T04:05:13.982Z] [INFO ] Network      : connected ✅ (HTTP 200)
+──────────────────────────────────────────────────────────────────────
+[2026-02-26T04:05:13.987Z] [INFO ] All system checks passed ✅
+──────────────────────────────────────────────────────────────────────
+[2026-02-26T04:05:13.993Z] [INFO ] [1/3] Starting arXiv crawl...
+[2026-02-26T04:05:13.996Z] [INFO ] Fetching arXiv search: "machine learning" → https://arxiv.org/search/?searchtype=all&query=machine+learning&start=0
+[2026-02-26T04:05:14.970Z] [OK   ] Parsed 50 papers from arXiv
+[2026-02-26T04:05:14.973Z] [INFO ] [1/3] ✅ Crawled 10 papers
+[2026-02-26T04:05:14.976Z] [INFO ] [2/3] Saving results...
+[2026-02-26T04:05:14.982Z] [OK   ] JSON saved: /mnt/d/Must-Company-assesment/Quest4/output/results.json (10 total, 10 new)
+[2026-02-26T04:05:14.987Z] [OK   ] CSV saved: /mnt/d/Must-Company-assesment/Quest4/output/results.csv (10 rows appended)
+[2026-02-26T04:05:14.990Z] [INFO ] [2/3] ✅ Data saved to JSON and CSV
+──────────────────────────────────────────────────────────────────────
+[2026-02-26T04:05:14.994Z] [INFO ] [3/3] Crawl Summary:
+[2026-02-26T04:05:14.996Z] [INFO ]    Papers Crawled : 10
+[2026-02-26T04:05:14.998Z] [INFO ]    JSON Output    : /mnt/d/Must-Company-assesment/Quest4/output/results.json
+[2026-02-26T04:05:15.000Z] [INFO ]    CSV Output     : /mnt/d/Must-Company-assesment/Quest4/output/results.csv
+[2026-02-26T04:05:15.002Z] [INFO ]    Log File       : /mnt/d/Must-Company-assesment/Quest4/logs/crawler.log
+[2026-02-26T04:05:15.004Z] [INFO ]    ⏱  Time Elapsed: 1.54s — 🏆 OPTIMAL (≤8s)!
+──────────────────────────────────────────────────────────────────────
+[2026-02-26T04:05:15.010Z] [INFO ] 📄 Sample Results:
+[2026-02-26T04:05:15.013Z] [INFO ]    1. [2602.22207] Recovered in Translation: Efficient Pipeline for Automated Transl...
+[2026-02-26T04:05:15.015Z] [INFO ]       Authors : Hanna Yukhymenko, Anton Alexandrov, Martin Vechev
+[2026-02-26T04:05:15.018Z] [INFO ]       PDF     : https://arxiv.org/pdf/2602.22207
+[2026-02-26T04:05:15.020Z] [INFO ]       Tags    : cs.CL, cs.AI, cs.LG
+[2026-02-26T04:05:15.022Z] [INFO ]    2. [2602.22200] SumTablets: A Transliteration Dataset of Sumerian Tablets...
+[2026-02-26T04:05:15.025Z] [INFO ]       Authors : Cole Simmons, Richard Diehl Martinez, Dan Jurafsky
+[2026-02-26T04:05:15.027Z] [INFO ]       PDF     : https://arxiv.org/pdf/2602.22200
+[2026-02-26T04:05:15.029Z] [INFO ]       Tags    : cs.CL, doi, 10.18653/v1/2024.ml4al-1.20
+[2026-02-26T04:05:15.033Z] [INFO ]    3. [2602.22197] Off-The-Shelf Image-to-Image Models Are All You Need To Defeat Im...
+[2026-02-26T04:05:15.035Z] [INFO ]       Authors : Xavier Pleimling, Sifat Muhammad Abdullah, Gunjan Balde, Pen
+[2026-02-26T04:05:15.037Z] [INFO ]       PDF     : https://arxiv.org/pdf/2602.22197
+[2026-02-26T04:05:15.039Z] [INFO ]       Tags    : cs.CV, cs.AI
+──────────────────────────────────────────────────────────────────────
+══════════════════════════════════════════════════════════════════════
+  Quest 4: arXiv Crawler — Cron Scheduler
+══════════════════════════════════════════════════════════════════════
+[2026-02-26T04:07:05.597Z] [INFO ] Schedule   : 0 8 * * * (Asia/Jakarta)
+[2026-02-26T04:07:05.600Z] [INFO ] Query      : "machine learning"
+[2026-02-26T04:07:05.603Z] [INFO ] Max Results: 10
+[2026-02-26T04:07:05.605Z] [INFO ] Log File   : /mnt/d/Must-Company-assesment/Quest4/logs/crawler.log
+──────────────────────────────────────────────────────────────────────
+[2026-02-26T04:07:05.610Z] [INFO ] Running initial crawl on startup...
+══════════════════════════════════════════════════════════════════════
+  Quest 4: arXiv Crawler — Linux Edition
+══════════════════════════════════════════════════════════════════════
+[2026-02-26T04:07:05.614Z] [INFO ] Target     : https://arxiv.org
+[2026-02-26T04:07:05.617Z] [INFO ] Query      : "machine learning"
+[2026-02-26T04:07:05.619Z] [INFO ] Max Results: 10
+[2026-02-26T04:07:05.621Z] [INFO ] Concurrency: 5
+[2026-02-26T04:07:05.623Z] [INFO ] Max Retries: 3
+[2026-02-26T04:07:05.625Z] [INFO ] Platform   : linux (x64)
+──────────────────────────────────────────────────────────────────────
+[2026-02-26T04:07:05.630Z] [INFO ] [0/3] Running Linux system checks...
+[2026-02-26T04:07:05.632Z] [INFO ] Running system checks...
+──────────────────────────────────────────────────────────────────────
+[2026-02-26T04:07:05.637Z] [INFO ] OS Platform  : linux ✅
+[2026-02-26T04:07:05.639Z] [INFO ] Node.js      : v20.20.0 ✅
+[2026-02-26T04:07:05.645Z] [INFO ] Output dir   : writable ✅ (/mnt/d/Must-Company-assesment/Quest4/output)
+[2026-02-26T04:07:05.652Z] [INFO ] Log dir      : writable ✅ (/mnt/d/Must-Company-assesment/Quest4/logs)
+[2026-02-26T04:07:05.666Z] [INFO ] Disk Space   : 583501MB available ✅
+[2026-02-26T04:07:05.669Z] [INFO ] DNS Check    : resolving arxiv.org...
+[2026-02-26T04:07:05.728Z] [INFO ] Cron scheduler is running. Press Ctrl+C to stop.
+[2026-02-26T04:07:05.731Z] [INFO ] Next run: 0 8 * * * (Asia/Jakarta)
+[2026-02-26T04:07:06.157Z] [INFO ] Network      : connected ✅ (HTTP 200)
+──────────────────────────────────────────────────────────────────────
+[2026-02-26T04:07:06.164Z] [INFO ] All system checks passed ✅
+──────────────────────────────────────────────────────────────────────
+[2026-02-26T04:07:06.168Z] [INFO ] [1/3] Starting arXiv crawl...
+[2026-02-26T04:07:06.171Z] [INFO ] Fetching arXiv search: "machine learning" → https://arxiv.org/search/?searchtype=all&query=machine+learning&start=0
+[2026-02-26T04:07:07.322Z] [OK   ] Parsed 50 papers from arXiv
+[2026-02-26T04:07:07.326Z] [INFO ] [1/3] ✅ Crawled 10 papers
+[2026-02-26T04:07:07.329Z] [INFO ] [2/3] Saving results...
+[2026-02-26T04:07:07.338Z] [OK   ] JSON saved: /mnt/d/Must-Company-assesment/Quest4/output/results.json (10 total, 0 new)
+[2026-02-26T04:07:07.345Z] [OK   ] CSV saved: /mnt/d/Must-Company-assesment/Quest4/output/results.csv (10 rows appended)
+[2026-02-26T04:07:07.347Z] [INFO ] [2/3] ✅ Data saved to JSON and CSV
+──────────────────────────────────────────────────────────────────────
+[2026-02-26T04:07:07.353Z] [INFO ] [3/3] Crawl Summary:
+[2026-02-26T04:07:07.355Z] [INFO ]    Papers Crawled : 10
+[2026-02-26T04:07:07.358Z] [INFO ]    JSON Output    : /mnt/d/Must-Company-assesment/Quest4/output/results.json
+[2026-02-26T04:07:07.360Z] [INFO ]    CSV Output     : /mnt/d/Must-Company-assesment/Quest4/output/results.csv
+[2026-02-26T04:07:07.362Z] [INFO ]    Log File       : /mnt/d/Must-Company-assesment/Quest4/logs/crawler.log
+[2026-02-26T04:07:07.365Z] [INFO ]    ⏱  Time Elapsed: 1.72s — 🏆 OPTIMAL (≤8s)!
+──────────────────────────────────────────────────────────────────────
+[2026-02-26T04:07:07.370Z] [INFO ] 📄 Sample Results:
+[2026-02-26T04:07:07.372Z] [INFO ]    1. [2602.22207] Recovered in Translation: Efficient Pipeline for Automated Transl...
+[2026-02-26T04:07:07.374Z] [INFO ]       Authors : Hanna Yukhymenko, Anton Alexandrov, Martin Vechev
+[2026-02-26T04:07:07.376Z] [INFO ]       PDF     : https://arxiv.org/pdf/2602.22207
+[2026-02-26T04:07:07.379Z] [INFO ]       Tags    : cs.CL, cs.AI, cs.LG
+[2026-02-26T04:07:07.381Z] [INFO ]    2. [2602.22200] SumTablets: A Transliteration Dataset of Sumerian Tablets...
+[2026-02-26T04:07:07.384Z] [INFO ]       Authors : Cole Simmons, Richard Diehl Martinez, Dan Jurafsky
+[2026-02-26T04:07:07.387Z] [INFO ]       PDF     : https://arxiv.org/pdf/2602.22200
+[2026-02-26T04:07:07.391Z] [INFO ]       Tags    : cs.CL, doi, 10.18653/v1/2024.ml4al-1.20
+[2026-02-26T04:07:07.394Z] [INFO ]    3. [2602.22197] Off-The-Shelf Image-to-Image Models Are All You Need To Defeat Im...
+[2026-02-26T04:07:07.398Z] [INFO ]       Authors : Xavier Pleimling, Sifat Muhammad Abdullah, Gunjan Balde, Pen
+[2026-02-26T04:07:07.401Z] [INFO ]       PDF     : https://arxiv.org/pdf/2602.22197
+[2026-02-26T04:07:07.405Z] [INFO ]       Tags    : cs.CV, cs.AI
+──────────────────────────────────────────────────────────────────────

@@ -1,0 +1,19 @@
+{
+  "name": "quest4-crawling-linux",
+  "version": "1.0.0",
+  "description": "Quest 4: Web Crawling on Linux — arXiv paper crawler with cron, logging, and structured output",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "crawl": "node src/index.js",
+    "setup-cron": "node src/setup-cron.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "node-cron": "^3.0.3"
+  },
+  "keywords": ["crawling", "linux", "arxiv", "rpa", "cron"],
+  "author": "",
+  "license": "MIT"
+}

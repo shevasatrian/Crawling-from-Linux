@@ -1,0 +1,112 @@
+[
+  {
+    "arxiv_id": "2602.22207",
+    "title": "Recovered in Translation: Efficient Pipeline for Automated Translation of Benchmarks and Datasets",
+    "authors": "Hanna Yukhymenko, Anton Alexandrov, Martin Vechev",
+    "abstract": "The reliability of multilingual Large Language Model (LLM) evaluation is currently compromised by the inconsistent quality of translated benchmarks. Existing resources often suffer from semantic drift and context loss, which can lead to misleading performance metrics. In this work, we present a full",
+    "submitted": "Submitted 25 February, 2026; originally announced February 2026.",
+    "categories": "cs.CL, cs.AI, cs.LG",
+    "paper_url": "https://arxiv.org/abs/2602.22207",
+    "pdf_url": "https://arxiv.org/pdf/2602.22207",
+    "crawled_at": "2026-02-26T04:05:14.941Z"
+  },
+  {
+    "arxiv_id": "2602.22200",
+    "title": "SumTablets: A Transliteration Dataset of Sumerian Tablets",
+    "authors": "Cole Simmons, Richard Diehl Martinez, Dan Jurafsky",
+    "abstract": "Sumerian transliteration is a conventional system for representing a scholar's interpretation of a tablet in the Latin script. Thanks to visionary digital Assyriology projects such as ETCSL, CDLI, and Oracc, a large number of Sumerian transliterations have been published online, and these data are w",
+    "submitted": "Submitted 25 February, 2026; originally announced February 2026. Comments: 11 pa",
+    "categories": "cs.CL, doi, 10.18653/v1/2024.ml4al-1.20",
+    "paper_url": "https://arxiv.org/abs/2602.22200",
+    "pdf_url": "https://arxiv.org/pdf/2602.22200",
+    "crawled_at": "2026-02-26T04:05:14.942Z"
+  },
+  {
+    "arxiv_id": "2602.22197",
+    "title": "Off-The-Shelf Image-to-Image Models Are All You Need To Defeat Image Protection Schemes",
+    "authors": "Xavier Pleimling, Sifat Muhammad Abdullah, Gunjan Balde, Peng Gao, Mainack Mondal, Murtuza Jadliwala, Bimal Viswanath",
+    "abstract": "Advances in Generative AI (GenAI) have led to the development of various protection strategies to prevent the unauthorized use of images. These methods rely on adding imperceptible protective perturbations to images to thwart misuse such as style mimicry or deepfake manipulations. Although previous ",
+    "submitted": "Submitted 25 February, 2026; originally announced February 2026. Comments: This ",
+    "categories": "cs.CV, cs.AI",
+    "paper_url": "https://arxiv.org/abs/2602.22197",
+    "pdf_url": "https://arxiv.org/pdf/2602.22197",
+    "crawled_at": "2026-02-26T04:05:14.943Z"
+  },
+  {
+    "arxiv_id": "2602.22190",
+    "title": "GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL",
+    "authors": "Rui Yang, Qianhui Wu, Zhaoyang Wang, Hanyang Chen, Ke Yang, Hao Cheng, Huaxiu Yao, Baoling Peng, Huan Zhang, Jianfeng Gao, Tong Zhang",
+    "abstract": "Open-source native GUI agents still lag behind closed-source systems on long-horizon navigation tasks. This gap stems from two limitations: a shortage of high-quality, action-aligned reasoning data, and the direct adoption of generic post-training pipelines that overlook the unique challenges of GUI",
+    "submitted": "Submitted 25 February, 2026; originally announced February 2026. Comments: 57 pa",
+    "categories": "cs.LG, cs.AI, cs.CL",
+    "paper_url": "https://arxiv.org/abs/2602.22190",
+    "pdf_url": "https://arxiv.org/pdf/2602.22190",
+    "crawled_at": "2026-02-26T04:05:14.944Z"
+  },
+  {
+    "arxiv_id": "2602.22188",
+    "title": "Surrogate models for Rock-Fluid Interaction: A Grid-Size-Invariant Approach",
+    "authors": "Nathalie C. Pinheiro, Donghu Guo, Hannah P. Menke, Aniket C. Joshi, Claire E. Heaney, Ahmed H. ElSheikh, Christopher C. Pain",
+    "abstract": "Modelling rock-fluid interaction requires solving a set of partial differential equations (PDEs) to predict the flow behaviour and the reactions of the fluid with the rock on the interfaces. Conventional high-fidelity numerical models require a high resolution to obtain reliable results, resulting i",
+    "submitted": "Submitted 25 February, 2026; originally announced February 2026.",
+    "categories": "cs.LG, cs.AI, physics.flu-dyn",
+    "paper_url": "https://arxiv.org/abs/2602.22188",
+    "pdf_url": "https://arxiv.org/pdf/2602.22188",
+    "crawled_at": "2026-02-26T04:05:14.945Z"
+  },
+  {
+    "arxiv_id": "2602.22179",
+    "title": "Learning and Naming Subgroups with Exceptional Survival Characteristics",
+    "authors": "Mhd Jawad Al Rahwanji, Sascha Xu, Nils Philipp Walter, Jilles Vreeken",
+    "abstract": "…statistics, tend to overlook individual deviations. In this paper, we propose Sysurv, a fully differentiable, non-parametric method that leverages random survival forests to learn individual survival curves, automatically learns conditions and how to combine these into inherently interpretable rule",
+    "submitted": "Submitted 25 February, 2026; originally announced February 2026.",
+    "categories": "cs.LG",
+    "paper_url": "https://arxiv.org/abs/2602.22179",
+    "pdf_url": "https://arxiv.org/pdf/2602.22179",
+    "crawled_at": "2026-02-26T04:05:14.945Z"
+  },
+  {
+    "arxiv_id": "2602.22157",
+    "title": "Dynamic Personality Adaptation in Large Language Models via State Machines",
+    "authors": "Leon Pielage, Ole Hätscher, Mitja Back, Bernhard Marschall, Benjamin Risse",
+    "abstract": "…dialogue dynamics hinders their performance in complex, interactive contexts. We propose a model-agnostic framework for dynamic personality simulation that employs state machines to represent latent personality states, where transition probabilities are dynamically adapted to the conversational con",
+    "submitted": "Submitted 25 February, 2026; originally announced February 2026. Comments: 22 pa",
+    "categories": "cs.CL, cs.HC, cs.LG",
+    "paper_url": "https://arxiv.org/abs/2602.22157",
+    "pdf_url": "https://arxiv.org/pdf/2602.22157",
+    "crawled_at": "2026-02-26T04:05:14.946Z"
+  },
+  {
+    "arxiv_id": "2602.22146",
+    "title": "Provable Last-Iterate Convergence for Multi-Objective Safe LLM Alignment via Optimistic Primal-Dual",
+    "authors": "Yining Li, Peizhong Ju, Ness Shroff",
+    "abstract": "Reinforcement Learning from Human Feedback (RLHF) plays a significant role in aligning Large Language Models (LLMs) with human preferences. While RLHF with expected reward constraints can be formulated as a primal-dual optimization problem, standard primal-dual methods only guarantee convergence wit",
+    "submitted": "Submitted 25 February, 2026; originally announced February 2026.",
+    "categories": "cs.LG, cs.AI",
+    "paper_url": "https://arxiv.org/abs/2602.22146",
+    "pdf_url": "https://arxiv.org/pdf/2602.22146",
+    "crawled_at": "2026-02-26T04:05:14.946Z"
+  },
+  {
+    "arxiv_id": "2602.22136",
+    "title": "SigmaQuant: Hardware-Aware Heterogeneous Quantization Method for Edge DNN Inference",
+    "authors": "Qunyou Liu, Pengbo Yu, Marina Zapater, David Atienza",
+    "abstract": "Deep neural networks (DNNs) are essential for performing advanced tasks on edge or mobile devices, yet their deployment is often hindered by severe resource constraints, including limited memory, energy, and computational power. While uniform quantization provides a straightforward approach to compr",
+    "submitted": "Submitted 25 February, 2026; originally announced February 2026.",
+    "categories": "cs.LG, cs.AR",
+    "paper_url": "https://arxiv.org/abs/2602.22136",
+    "pdf_url": "https://arxiv.org/pdf/2602.22136",
+    "crawled_at": "2026-02-26T04:05:14.947Z"
+  },
+  {
+    "arxiv_id": "2602.22131",
+    "title": "Giving Meaning to Movements: Challenges and Opportunities in Expanding Communication by Pairing Unaided AAC with Speech Generated Messages",
+    "authors": "Imran Kabir, Sharon Ann Redmon, Lynn R Elko, Kevin Williams, Mitchell A Case, Dawn J Sowers, Krista Wilkinson, Syed Masum Billah",
+    "abstract": "…first of its kind. Our findings reveal challenges in recognizing personalized, idiosyncratic gestures and demonstrate how to address them using Transformer-based large machine learning (ML) models with different pretraining strategies. In sum, we contribute design principles and a reference impleme",
+    "submitted": "Submitted 25 February, 2026; originally announced February 2026. Comments: To ap",
+    "categories": "cs.HC, doi, 10.1145/3772318.3791273",
+    "paper_url": "https://arxiv.org/abs/2602.22131",
+    "pdf_url": "https://arxiv.org/pdf/2602.22131",
+    "crawled_at": "2026-02-26T04:05:14.947Z"
+  }
+]
